@@ -1,0 +1,13 @@
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000
+        loggerLevel: full
+
+client:
+  user-management-ms:
+    name: user-management-ms
+    host: ${USER_MANAGEMENT_HOST:http://localhost:8080}
+    path: /user-management-ms

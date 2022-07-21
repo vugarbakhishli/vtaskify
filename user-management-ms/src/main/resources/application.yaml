@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: VtaskifyUserManagementMs
+  profiles:
+    active: ${ACTIVE_PROFILE:dev}
+    include:
+      - common
+      - db
+      - security
+      - client

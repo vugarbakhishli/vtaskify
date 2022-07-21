@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: VtaskifyOrganizationUserMs
+  profiles:
+    active: ${ACTIVE_PROFILE:dev}
+    include:
+      - common
+      - db
+      - security
+  main:
+    allow-bean-definition-overriding: true

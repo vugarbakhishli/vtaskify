@@ -1,0 +1,6 @@
+rootProject.name = 'vtaskify'
+include 'user-management-ms' //8080
+include 'common'
+include 'organization-user-ms' //8081
+include 'common-security'
+
